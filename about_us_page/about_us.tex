@@ -1,0 +1,66 @@
+\documentclass{article} % Use article or a minimal class
+
+% Load the necessary packages locally
+\usepackage{tikz}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\begin{document}
+	\pagestyle{empty}
+    
+	%\vspace{2cm} % odsazeni po nadpisu
+	%\begin{multicols*}{2}  % the * with the multicols make them not to be equalized
+		\selectfont
+            %\fontsize{10}{10}
+            %\selectfont
+		\section{Náš tým}
+                Studenti pracující na projektu:
+                \begin{itemize}
+                    \item Emanuel, Antol: \texttt{256718}, FEKT, TLI
+                    \item Bohácsek, Hugo: \texttt{}, FIT
+                    \item Lenčeš, Lukáš: \texttt{256658}, FEKT, MET
+                    \item Lev, Lukáš: \texttt{256660}, FEKT, MET
+                    \item Proks, Tomáš: \texttt{}, FSI, B-PRP-P
+                    \item Strouhal, Martin: \texttt{256693}, FEKT, MET
+                \end{itemize}
+                
+                \vspace{.5cm}
+                \noindent
+                Projekt byl garantován Ing. Jiřím Janouškem.\\
+                \begin{tikzpicture}[remember picture, overlay]
+                    \node[anchor=north west, xshift=13.5cm, yshift=-4cm] at (current page.north west) {
+                        \includegraphics[width=0.25\textwidth]{about_us_page/smart_hangar.png}
+                    };
+                \end{tikzpicture}
+
+                \noindent
+                Projekt vývoje inteligentního hangáru je dokumentován také na naší stránce na sociální síti Instagram (\href{https://www.instagram.com/smart_hangar/}{\textbf{@smart\_hangar}}).
+                               
+            \section{Soutěž FEKTTeams 2024}
+                Soutěž FEKTTeams 2024 organizována \href{https://www.ufyz.fekt.vut.cz/}{Ústavem fyziky} na Fakultě elektrotechniky a komunikačních technologií. Soutěž je určena pro studenty prvních ročníků bakalářského studia, kterým umožňuje práci na projektech vyvíjejících zařízení v oblasti elektrotechnologií.
+                %\begin{wrapfigure}{r}{0.25\textwidth}
+                %    \includegraphics[width=0.9\linewidth]{about_us_page/logo_ufyz.png} 
+                %\end{wrapfigure}
+            \section{Spolupráce}    
+                Projekt byl zastřešen studentskou skupinou \href{https://www.utee.fekt.vut.cz/drone-research-center}{Drone Research Center} na Ústavu teoretické a experimentální elektrotechniky.\\
+                \vspace{1.5cm}
+                \begin{tikzpicture}[remember picture, overlay]
+                    \node[anchor=north west, xshift=\textwidth/2+1cm, yshift=-18.45cm] at (current page.north west) {
+                        \includegraphics[width=0.25\textwidth]{about_us_page/drone_research_center.png}
+                    };
+                \end{tikzpicture}
+            \section{Popularizace naší práce}
+                Mimo výše zmíněnou stránku našeho projektu na sociální síti \href{https://www.instagram.com/smart_hangar/}{Instagram} byly na populárně-naučných webových portálech \textbf{Vědátor} a \textbf{Osel.cz} publikovány články (článek na \href{https://vedator.org/2024/08/autonomni-drony-vznikaji-uz-i-v-cesku-jeden-kuti-v-brne/}{vedator.org} a \href{https://www.osel.cz/13580-autonomni-hnizdo-inovativni-hangar-z-vut-prinasi-technologickou-revoluci.html}{osel.cz}).
+                \begin{tikzpicture}[remember picture, overlay]
+                    \node[anchor=north west, xshift=82mm, yshift=-24cm] at (current page.north west) {
+                        \includegraphics[width=0.115\textwidth]{about_us_page/vedator.png}
+                    };
+                \end{tikzpicture}
+                \begin{tikzpicture}[remember picture, overlay]
+                    \node[anchor=north west, xshift=102mm, yshift=-24cm] at (current page.north west) {
+                        \includegraphics[width=0.25\textwidth]{about_us_page/osel.jpg}
+                    };
+                \end{tikzpicture}
+	%\end{multicols*}
+
+\end{document}
