@@ -1,0 +1,30 @@
+\babel@toc {czech}{}\relax 
+\contentsline {section}{\numberline {1}Akronymy}{2}{section.1}%
+\contentsline {section}{\numberline {2}Úvod}{3}{section.2}%
+\contentsline {section}{\numberline {3}Mechanický design}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Použitý materiál}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Základna hangáru}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Střední část hangáru - \quotedblbase Landing pad\textquotedblleft }{5}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Mechanismus zarovnání dronu}{5}{subsubsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.4}Dveře}{6}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Mechanismus pohybu dveří}{6}{subsubsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.5}Nákresy modelů}{7}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Elektronika}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Schéma elektroniky hangáru}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Řídící jednotka}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Napájení}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Periferie}{9}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.1}Senzory pro měření teploty}{9}{subsubsection.4.4.1}%
+\contentsline {subsubsection}{\numberline {4.4.2}Kamery}{10}{subsubsection.4.4.2}%
+\contentsline {subsubsection}{\numberline {4.4.3}Ovládání krokových motorů}{10}{subsubsection.4.4.3}%
+\contentsline {subsubsection}{\numberline {4.4.4}Ovládání motorů zarovnávajících dron}{10}{subsubsection.4.4.4}%
+\contentsline {subsubsection}{\numberline {4.4.5}Peltierovy články pro termoregulaci}{11}{subsubsection.4.4.5}%
+\contentsline {subsubsection}{\numberline {4.4.6}Modul pro odečítání stavu baterie}{11}{subsubsection.4.4.6}%
+\contentsline {section}{\numberline {5}IT}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Softvérová architektúra hangáru}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Komunikace s dronem}{11}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}Vzdialený server}{12}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}Webové rozhranie}{12}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}Skripty na RPI}{13}{subsubsection.5.2.3}%
+\contentsline {section}{\numberline {6}Závěr}{13}{section.6}%
+\contentsline {section}{\numberline {7}\ignorespaces Výkresy}{15}{section.7}%

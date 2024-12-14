@@ -1,0 +1,24 @@
+\usetikzlibrary{positioning}
+\usetikzlibrary{calc}
+
+\begin{tikzpicture}[auto, node distance=.75cm, >=latex]
+    \node (naplog) [draw, thick, fill=blue!20, text width=1.5cm, align=center] 
+        {Napájení \small{(\ref{subsec:napajeni})}};
+    \node (ridjed) [draw, thick, fill=blue!20, text width=1.5cm, align=center, right=of naplog]
+        {Řídící jednotka};
+    \node (per) [draw, thick, fill=blue!20, text width=1.5cm, align=center, below=of ridjed, yshift=.3cm]
+        {Periferie \small{(\ref{subsec:periferie})}};
+    \node (drn) [draw, thick, fill=blue!20, text width=1.5cm, align=center, below=of naplog, yshift=.3cm]
+        {Dron};
+    \node (bat) [draw, thick, fill=blue!20, text width=1.5cm, align=center, left=of naplog, yshift=.38cm]
+        {Baterie};
+    \node (std) [draw, thick, fill=blue!20, text width=1.5cm, align=center, below=of bat, yshift=.5cm]
+        {Stepdown};
+    
+    \draw[<->] (naplog) -- (ridjed);
+    \draw[<->] (ridjed) -- (per);
+    \draw[->] (naplog) -- (drn);
+    \draw[] (bat) -- (std);
+    \coordinate (src_midpoint) at ($ (bat)!0.4!(std) $);
+    \draw[->] (src_midpoint) -- (naplog);
+\end{tikzpicture}
